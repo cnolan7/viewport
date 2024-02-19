@@ -277,17 +277,19 @@ img{
 
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-    /* img{
-        width: 300px;
-        max-width: 300px;
-    } */
+     img{
+        width: 100%;
+        max-width: 100%;
+    } 
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
 
 
 
 /* ---------- EXTRA LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
-    /* header, footer{
+    @media screen and (min-width: 1201px){
+        
+        header, footer{
         background-color: var(--orange);
         padding-left: 5%;
     }
@@ -352,5 +354,6 @@ img{
 
     #three p, #four p, #five p, #six p{
         padding-top: 2em;
-    } */
+    } 
+}
 /* --------------- END EXTRA LARGE SCREEN SIZES --------------- */
